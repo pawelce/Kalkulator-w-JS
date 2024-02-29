@@ -1,0 +1,157 @@
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body,html{
+    box-sizing: border-box;
+    background-color: hsl(185, 41%, 84%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Space Mono";
+    font-weight: 599;
+}
+#splitter{
+    padding:55px;
+    padding-top:170px;
+}
+#kalkulator{
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    padding: 25px;
+    border-radius: 15px;
+    width:600px;
+    height: 30vh;
+}
+#left{
+    margin:5px;
+width: 300px;
+}
+#Bill{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:15px;
+}
+#bill{
+    border:0;
+    background-color: hsl(185, 41%, 84%);
+    padding:5px;
+    border-radius: 5px;
+    width: 90%;
+}
+#select{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#leftselect{
+    padding:6px;
+    display: flex;
+    flex-direction: column;
+}
+#centerselect{
+    padding:6px;
+    display: flex;
+    flex-direction: column;
+}
+#rightselect{
+    padding:6px;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    width:80px;
+    margin:5px;
+}
+#p1,#p2,#p3,#p4,#p5,#p6{
+    width:60px;
+    padding:4px;
+    margin:4px;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+}
+#p1:hover,#p2:hover,#p4:hover,#p5:hover{
+    background-color: hsl(183, 100%, 30%);
+    padding:10px;
+    transition-duration: 1s ;
+}
+#p3:hover{
+    background-color:hsl(172, 67%, 60%);
+    padding:10px;
+    transition-duration:1s ;
+}
+#p1,#p2,#p4,#p5{
+    background-color:  hsl(183, 100%, 15%);
+    color:white;
+}
+#p3{
+    color: hsl(183, 100%, 15%);
+    background-color: hsl(172, 67%, 45%);
+}
+#p6:hover{
+    padding:10px;
+    transition-duration:1s ;
+}
+#p6{
+    background-color: hsl(185, 41%, 84%);
+}
+#numberofpeople{
+    display: flex;
+    flex-direction: column;
+    margin-top:15px;
+}
+#nop{
+    border:0;
+    background-color: hsl(185, 41%, 84%);
+    padding:5px;
+    border-radius: 5px;
+    width: 90%;
+}
+#right{
+    color:white;
+    width:300px;
+    padding:15px;
+    border-radius: 15px;
+    background-color:  hsl(183, 100%, 15%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#upperight{
+    display: flex;
+    flex-direction: row;
+}
+#tipwynik{
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size:30px;
+    display: flex;
+    text-wrap: wrap;
+}
+#totalwynik{
+    font-size:30px;
+    display: flex;
+    text-wrap: wrap;
+}
+#tipamount{
+    margin:20px;
+}
+#total{
+    margin:20px;
+}
+#reset{
+    width:200px;
+    margin:20px;
+    padding:5px;
+    margin-left:40px;
+    background-color: hsl(172, 67%, 45%);
+    display: flex;
+    justify-content: center;
+    color: hsl(183, 100%, 15%);
+    border-radius: 5px;
+}
+#reset:hover{
+    background-color:hsl(172, 67%, 60%);
+    padding:10px;
+    transition-duration:1s ;
+}
